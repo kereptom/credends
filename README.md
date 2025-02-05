@@ -63,22 +63,26 @@ Environment Setup:
    ```bash
    conda create -n final_credits python=3.8 -y
    conda activate final_credits
+   ```
 
 3. Install Required Packages:
    ```bash
    pip install opencv-python google-cloud-storage google-auth vertexai
+   ```
 
 Running the Script:
 -------------------
 Usage:
    ```bash
        python credends.py -i input.csv -o output -s setup.txt
+    ```
 
 Parameters:
 ```bash
    -i, --input    : CSV file with video paths and (optional) ground truth times.
    -o, --output   : Folder where results (and logs) will be saved.
    -s, --setup    : Setup configuration file with Google Cloud and analysis settings.
+```
 
 Input File Format (input.csv):
 ------------------------------
