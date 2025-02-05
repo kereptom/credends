@@ -79,6 +79,8 @@ Usage:
 
 Download Service account key "prima-video-intelligence...json" and modify the file in the setup.txt
 
+Then run:
+
    ```bash
    python credends.py -i input/input1.csv -o output/output1 -s setup.txt
    ```
