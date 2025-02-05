@@ -30,7 +30,7 @@ Iterative Search Process:
        * Frame "f": Located between candidate "d" and end_frame.
    - If both "e" and "f" confirm final subtitles, there is strong evidence that the credits have begun;
      the window is narrowed by setting end_frame to candidate "c".
-   - Otherwise, if confirmation fails, the window is shifted slightly forward using an adaptive shift multiplier.
+   - Otherwise, if confirmation fails, the window (start_frame) is shifted slightly forward using an adaptive shift multiplier.
 
 3. Candidate "d" Check:
    - If candidate "c" does not show final subtitles, candidate frame "d" is checked.
@@ -38,7 +38,7 @@ Iterative Search Process:
        * Frame "f": Located between candidate "d" and end_frame.
    - If "f" confirms final subtitles, the window is adjusted by setting start_frame to candidate "c"
      and end_frame to candidate "d".
-   - Otherwise, the window is shifted forward (with an adaptive shift multiplier).
+   - Otherwise, the window (start_frame) is shifted forward (with an adaptive shift multiplier).
 
 4. No Clear Evidence:
    - When neither candidate "c" nor candidate "d" shows final subtitles, the window is shifted forward
