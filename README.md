@@ -91,9 +91,10 @@ Each line should have:
 Example:
 ```bash
    C:\path\to\video1.mp4,44:15
-   C:\path\to\video2.mp4,48:16
+   C:\path\to\video2.mp4,
    C:\path\to\video3.mp4,42:15
 ```
+<ground_truth_time> is NOT mandatory
 
 Output File (output.csv):
 -------------------------
