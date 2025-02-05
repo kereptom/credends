@@ -77,7 +77,7 @@ Running the Script:
 -------------------
 Usage:
    ```bash
-   python credends.py -i input.csv -o output -s setup.txt
+   python credends.py -i input/input1.csv -o output/output1 -s setup.txt
    ```
 
 Parameters:
