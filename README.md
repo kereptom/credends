@@ -1,4 +1,4 @@
-Final Credits Detector
+🍽️ Credends 🍽️ - Final Credits Detector
 =======================
 
 Description:
