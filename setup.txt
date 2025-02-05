@@ -1,0 +1,26 @@
+# setup.txt
+
+# Google Cloud project configuration
+PROJECT_ID = "prima-video-intelligence"
+REGION = "europe-west1"
+
+# Path to your service account JSON file (relative to the script's working directory)
+CREDENTIALS_PATH = "prima-video-intelligence-d88c0b819fa9.json"
+
+# GCS bucket name for temporary file storage
+BUCKET_NAME = "appsatori"
+
+# GCS working folder for running folder
+working_folder_gcp = "tomas4testing/final_credits/running_folder/"
+
+# Name of the generative model to use with Vertex AI
+GENERATIVE_MODEL = "gemini-1.5-flash-001"
+
+# Correction threshold setting (maximum allowed corrections)
+CORRECTION_THRESHOLD = 50
+
+# Analysis parameters
+ANALYSIS_START_PERCENT = 0.90         # Analyze from 90% of the video duration by default
+SEARCH_TOLERANCE = 0.2                # Tolerance used in the search algorithm (in seconds)
+CANDIDATE_FRACTION = 0.3333333        # Fraction used to compute candidate frame positions (default 1/3)
+BACKWARD_SEARCH_SECONDS = 5           # Maximum seconds to search backward for boundary verification
