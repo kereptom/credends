@@ -163,14 +163,14 @@ def section_search(video_path, fps, start, end, tolerance):
     max_back_steps = int(BACKWARD_SEARCH_SECONDS * fps)  # use configurable backward search seconds
     back_steps = 0
     candidate_frame = final_frame
-    while candidate_frame > start_frame + 1 and back_steps < max_back_steps:
-        prev_frame_num = candidate_frame - 1
+    while back_steps < max_back_steps:
+        prev_frame_num = candidate_frame - fps
         frame_prev = extract_frame(video_path, prev_frame_num, fps)
         description_prev = describe_frame(frame_prev)
         if contains_final_subtitles(description_prev):
             logging.info("Backward check: frame %d also contains final subtitles. Shifting candidate backward.", prev_frame_num)
             candidate_frame = prev_frame_num
-            back_steps += 1
+            back_steps += fps
         else:
             logging.info("Backward check: frame %d does not contain final subtitles. Boundary confirmed.", prev_frame_num)
             break
