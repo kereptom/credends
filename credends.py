@@ -151,7 +151,6 @@ def section_search(video_path, fps, start, end, tolerance):
                 logging.info("Shifting start_frame from %d to %d (resetting window to d, multiplier=%d, shift=%d)",
                              old_start, start_frame, shift_multiplier, shift_amount)
                 shift_multiplier = 1  # Reset after a full window reset
-                correction_count += 1
 
         # Recalculate candidate points for the next iteration.
         c = start_frame + (end_frame - start_frame) * CANDIDATE_FRACTION
