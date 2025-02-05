@@ -104,6 +104,6 @@ Output File (output.csv):
 After processing, an output.csv is created in the specified output folder.
 
 Columns:
-   video_path, detected_time, ground_truth_time
+   video_path, detected_time, ground_truth_time (or empty)
 
    - detected_time is in HH:MM:SS format (or "0" if detection fails).
