@@ -62,9 +62,10 @@ Environment Setup:
 2. Create and Activate the Conda Environment:
    ```bash
    conda create -n final_credits python=3.8 -y
-   conda activate final_credits```
+   conda activate final_credits
 
 3. Install Required Packages:
+   ```bash
    pip install opencv-python google-cloud-storage google-auth vertexai
 
 Running the Script:
