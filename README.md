@@ -19,7 +19,7 @@ Iterative Search Process:
 1. Pre-Candidate Double-Check:
    - Before examining candidate frames, the algorithm computes a "double-check" frame:
          double_check_frame = start_frame - (end_frame - start_frame) * CANDIDATE_FRACTION
-   - If this frame exists (i.e. is non-negative) and shows “final subtitles” (via Vertex AI),
+   - If this frame exists  and shows “final subtitles” (via Vertex AI),
      the algorithm immediately adjusts the start of the search window to that frame,
      increments the correction counter, resets the shift multiplier, and recalculates candidate positions.
 
