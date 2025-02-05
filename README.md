@@ -71,7 +71,8 @@ Environment Setup:
 Running the Script:
 -------------------
 Usage:
-   python credends.py -i input.csv -o output -s setup.txt
+   ```bash
+python credends.py -i input.csv -o output -s setup.txt
 
 Parameters:
    -i, --input    : CSV file with video paths and (optional) ground truth times.
