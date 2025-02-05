@@ -89,30 +89,11 @@ Input File Format (input.csv):
 Each line should have:
    <video_path>,<ground_truth_time>
 Example:
+```bash
    C:\path\to\video1.mp4,44:15
    C:\path\to\video2.mp4,48:16
    C:\path\to\video3.mp4,42:15
-
-Setup File Format (setup.txt):
-------------------------------
-A sample setup.txt file:
-
-   # setup.txt
-
-   # Google Cloud project configuration
-   PROJECT_ID = "prima-video-intelligence"
-   REGION = "europe-west1"
-   CREDENTIALS_PATH = "prima-video-intelligence-d88c0b819fa9.json"
-   BUCKET_NAME = "appsatori"
-   working_folder_gcp = "tomas4testing/final_credits/running_folder/"
-
-   # Generative model and analysis parameters
-   GENERATIVE_MODEL = "gemini-1.5-flash-001"
-   CORRECTION_THRESHOLD = 50
-   ANALYSIS_START_PERCENT = 0.90         # Analyze from 90% of video duration
-   SEARCH_TOLERANCE = 0.2                # Tolerance (in seconds)
-   CANDIDATE_FRACTION = 0.3333333        # Fraction for candidate positions (approx. 1/3)
-   BACKWARD_SEARCH_SECONDS = 5           # Seconds for backward check
+```
 
 Output File (output.csv):
 -------------------------
@@ -122,8 +103,3 @@ Columns:
 
    - detected_time is in HH:MM:SS format (or "0" if detection fails).
 
-Notes:
-------
-- Ensure proper credentials and access to Google Cloud Vertex AI.
-- The script archives any existing files (except the archive folder itself) in the output folder.
-- This README is minimal and plain to help you quickly set up and run the script.
