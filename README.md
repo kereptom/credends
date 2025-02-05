@@ -41,8 +41,7 @@ Iterative Search Process:
    - Otherwise, the window (start_frame) is shifted forward (with an adaptive shift multiplier).
 
 4. No Clear Evidence:
-   - When neither candidate "c" nor candidate "d" shows final subtitles, the window is shifted forward
-     to search a new region.
+   - When neither candidate "c" nor candidate "d" shows final subtitles,  new region is set to be [candidate d --- end_frame]
 
 5. Backward Check:
    - Once the iterative narrowing reduces the window below a specified tolerance (in frames),
