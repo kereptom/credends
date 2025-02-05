@@ -49,8 +49,8 @@ Iterative Search Process:
 5. Backward Check:
    - Once the iterative narrowing reduces the window below a specified tolerance (in frames),
      the candidate final frame is set to end_frame.
-   - A backward check then ensues: the algorithm moves one frame at a time backward from the candidate,
-     verifying that each preceding frame also contains final subtitles.
+   - A backward check then ensues: the algorithm moves one second at a time backward from the candidate,
+     verifying that  preceding frames also contains final subtitles.
    - This continues until a frame is found that does not contain final subtitles,
      confirming the precise boundary where the final credits start.
 
