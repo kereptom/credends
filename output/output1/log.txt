@@ -1,0 +1,25 @@
+2025-02-05 15:04:43,014 INFO: Starting processing. Logs will be output to both terminal and C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\credends\output\output1\log.txt
+2025-02-05 15:04:43,017 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_01_Bez_litosti.mp4
+2025-02-05 15:04:43,045 INFO: Search window: start_frame=60500, end_frame=67223, shift_multiplier=1
+2025-02-05 15:04:47,429 INFO: No evidence at c or d; setting start_frame to d (64982).
+2025-02-05 15:04:47,429 INFO: Shifting start_frame from 60500 to 64982 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 15:04:47,429 INFO: Search window: start_frame=64982, end_frame=67223, shift_multiplier=1
+2025-02-05 15:04:53,246 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 15:04:53,246 INFO: Search window: start_frame=65728, end_frame=66476, shift_multiplier=1
+2025-02-05 15:04:59,312 INFO: No evidence at c or d; setting start_frame to d (66226).
+2025-02-05 15:04:59,312 INFO: Shifting start_frame from 65728 to 66226 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 15:04:59,312 INFO: Search window: start_frame=66226, end_frame=66476, shift_multiplier=1
+2025-02-05 15:05:03,455 INFO: No evidence at c or d; setting start_frame to d (66392).
+2025-02-05 15:05:03,455 INFO: Shifting start_frame from 66226 to 66392 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 15:05:03,455 INFO: Search window: start_frame=66392, end_frame=66476, shift_multiplier=1
+2025-02-05 15:05:09,841 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 15:05:09,841 INFO: Search window: start_frame=66392, end_frame=66419, shift_multiplier=1
+2025-02-05 15:05:16,213 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 15:05:16,213 INFO: Search window: start_frame=66392, end_frame=66400, shift_multiplier=1
+2025-02-05 15:05:22,062 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 15:05:22,062 INFO: Iterative search converged with candidate final_frame=66397
+2025-02-05 15:05:23,373 INFO: Backward check: frame 66372 does not contain final subtitles. Boundary confirmed.
+2025-02-05 15:05:23,373 INFO: Final detected start of credits at frame 66397
+2025-02-05 15:05:23,373 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_01_Bez_litosti.mp4: successful
+2025-02-05 15:05:23,373 INFO: Video length: 00:44:48, End credits time: 00:44:15, Full processing time: 40.36 seconds
+2025-02-05 15:05:23,393 INFO: Processing completed. Results saved to C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\credends\output\output1\output.csv

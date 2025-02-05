@@ -1,0 +1,77 @@
+2025-02-05 14:51:21,726 INFO: Starting processing. Logs will be output to both terminal and C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\credends\output\output_hard3\log.txt
+2025-02-05 14:51:21,726 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_01_Bez_litosti.mp4
+2025-02-05 14:51:21,758 INFO: Search window: start_frame=60500, end_frame=67223, shift_multiplier=1
+2025-02-05 14:51:26,230 INFO: No evidence at c or d; setting start_frame to d (64982).
+2025-02-05 14:51:26,232 INFO: Shifting start_frame from 60500 to 64982 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:51:26,232 INFO: Search window: start_frame=64982, end_frame=67223, shift_multiplier=1
+2025-02-05 14:51:31,869 INFO: Insufficient confirmation in branch A; shifting start_frame from 64982 to 64992 (2**1 * frame_tolerance = 10)
+2025-02-05 14:51:31,869 INFO: Search window: start_frame=64992, end_frame=67223, shift_multiplier=2
+2025-02-05 14:51:38,203 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 14:51:38,203 INFO: Search window: start_frame=65735, end_frame=66479, shift_multiplier=1
+2025-02-05 14:51:42,761 INFO: No evidence at c or d; setting start_frame to d (66231).
+2025-02-05 14:51:42,764 INFO: Shifting start_frame from 65735 to 66231 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:51:42,764 INFO: Search window: start_frame=66231, end_frame=66479, shift_multiplier=1
+2025-02-05 14:51:48,551 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 14:51:48,564 INFO: Search window: start_frame=66313, end_frame=66396, shift_multiplier=1
+2025-02-05 14:51:53,291 INFO: No evidence at c or d; setting start_frame to d (66368).
+2025-02-05 14:51:53,291 INFO: Shifting start_frame from 66313 to 66368 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:51:53,291 INFO: Search window: start_frame=66368, end_frame=66396, shift_multiplier=1
+2025-02-05 14:51:58,655 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 14:51:58,655 INFO: Search window: start_frame=66377, end_frame=66386, shift_multiplier=1
+2025-02-05 14:52:03,979 INFO: Insufficient confirmation in branch A; shifting start_frame from 66377 to 66387 (2**1 * frame_tolerance = 10)
+2025-02-05 14:52:03,979 INFO: Iterative search converged with candidate final_frame=66386
+2025-02-05 14:52:05,603 INFO: Backward check: frame 66361 does not contain final subtitles. Boundary confirmed.
+2025-02-05 14:52:05,603 INFO: Final detected start of credits at frame 66386
+2025-02-05 14:52:05,603 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_01_Bez_litosti.mp4: successful
+2025-02-05 14:52:05,603 INFO: Video length: 00:44:48, End credits time: 00:44:15, Full processing time: 43.87 seconds
+2025-02-05 14:52:05,613 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_06_Autosalon.mp4
+2025-02-05 14:52:05,650 INFO: Search window: start_frame=67385, end_frame=74873, shift_multiplier=1
+2025-02-05 14:52:09,696 INFO: No evidence at c or d; setting start_frame to d (72377).
+2025-02-05 14:52:09,696 INFO: Shifting start_frame from 67385 to 72377 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:52:09,696 INFO: Search window: start_frame=72377, end_frame=74873, shift_multiplier=1
+2025-02-05 14:52:14,774 INFO: Insufficient confirmation in branch A; shifting start_frame from 72377 to 72387 (2**1 * frame_tolerance = 10)
+2025-02-05 14:52:14,774 INFO: Search window: start_frame=72387, end_frame=74873, shift_multiplier=2
+2025-02-05 14:52:20,795 INFO: Insufficient confirmation in branch A; shifting start_frame from 72387 to 72407 (2**2 * frame_tolerance = 20)
+2025-02-05 14:52:20,795 INFO: Search window: start_frame=72407, end_frame=74873, shift_multiplier=3
+2025-02-05 14:52:27,106 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:27,106 INFO: Search window: start_frame=72407, end_frame=73228, shift_multiplier=1
+2025-02-05 14:52:33,413 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:33,413 INFO: Search window: start_frame=72407, end_frame=72680, shift_multiplier=1
+2025-02-05 14:52:39,596 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:39,596 INFO: Search window: start_frame=72407, end_frame=72497, shift_multiplier=1
+2025-02-05 14:52:45,724 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:45,725 INFO: Search window: start_frame=72407, end_frame=72436, shift_multiplier=1
+2025-02-05 14:52:51,622 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:51,622 INFO: Search window: start_frame=72407, end_frame=72416, shift_multiplier=1
+2025-02-05 14:52:57,431 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:52:57,431 INFO: Iterative search converged with candidate final_frame=72409
+2025-02-05 14:52:58,906 INFO: Backward check: frame 72384 does not contain final subtitles. Boundary confirmed.
+2025-02-05 14:52:58,916 INFO: Final detected start of credits at frame 72409
+2025-02-05 14:52:58,916 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_06_Autosalon.mp4: successful
+2025-02-05 14:52:58,916 INFO: Video length: 00:49:54, End credits time: 00:48:16, Full processing time: 53.30 seconds
+2025-02-05 14:52:58,932 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_17_cze-sd4-jaFABoVN.mp4
+2025-02-05 14:52:58,936 INFO: Search window: start_frame=57890, end_frame=64323, shift_multiplier=1
+2025-02-05 14:53:03,240 INFO: No evidence at c or d; setting start_frame to d (62178).
+2025-02-05 14:53:03,240 INFO: Shifting start_frame from 57890 to 62178 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:53:03,240 INFO: Search window: start_frame=62178, end_frame=64323, shift_multiplier=1
+2025-02-05 14:53:08,432 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 14:53:08,432 INFO: Search window: start_frame=62892, end_frame=63608, shift_multiplier=1
+2025-02-05 14:53:11,822 INFO: No evidence at c or d; setting start_frame to d (63369).
+2025-02-05 14:53:11,822 INFO: Shifting start_frame from 62892 to 63369 (resetting window to d, multiplier=1, shift=10)
+2025-02-05 14:53:11,822 INFO: Search window: start_frame=63369, end_frame=63608, shift_multiplier=1
+2025-02-05 14:53:18,925 INFO: Found strong evidence of final subtitles at candidate region; narrowing window.
+2025-02-05 14:53:18,925 INFO: Search window: start_frame=63369, end_frame=63448, shift_multiplier=1
+2025-02-05 14:53:23,414 INFO: Insufficient confirmation in branch B; shifting start_frame from 63369 to 63379 (2**1 * frame_tolerance = 10)
+2025-02-05 14:53:23,414 INFO: Search window: start_frame=63379, end_frame=63448, shift_multiplier=2
+2025-02-05 14:53:27,738 INFO: Insufficient confirmation in branch A; shifting start_frame from 63379 to 63399 (2**2 * frame_tolerance = 20)
+2025-02-05 14:53:27,738 INFO: Search window: start_frame=63399, end_frame=63448, shift_multiplier=3
+2025-02-05 14:53:32,197 INFO: Insufficient confirmation in branch A; shifting start_frame from 63399 to 63439 (2**3 * frame_tolerance = 40)
+2025-02-05 14:53:32,197 INFO: Search window: start_frame=63439, end_frame=63448, shift_multiplier=4
+2025-02-05 14:53:36,401 INFO: Found valid credits in branch B; adjusting window to between c and d.
+2025-02-05 14:53:36,401 INFO: Iterative search converged with candidate final_frame=63445
+2025-02-05 14:53:37,734 INFO: Backward check: frame 63420 also contains final subtitles. Shifting candidate backward.
+2025-02-05 14:53:38,746 INFO: Backward check: frame 63395 does not contain final subtitles. Boundary confirmed.
+2025-02-05 14:53:38,746 INFO: Final detected start of credits at frame 63420
+2025-02-05 14:53:38,748 INFO: Processing video path: C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\challenge\Results50_17_cze-sd4-jaFABoVN.mp4: successful
+2025-02-05 14:53:38,748 INFO: Video length: 00:42:52, End credits time: 00:42:16, Full processing time: 39.82 seconds
+2025-02-05 14:53:38,761 INFO: Processing completed. Results saved to C:\Users\kerepet.PRIMA-NET\Projects\2025\02_end_credits\credends\output\output_hard3\output.csv
