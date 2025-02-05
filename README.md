@@ -102,6 +102,7 @@ Example:
 Output File (output.csv):
 -------------------------
 After processing, an output.csv is created in the specified output folder.
+
 Columns:
    video_path, detected_time, ground_truth_time
 
