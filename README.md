@@ -58,10 +58,10 @@ progress and prevent endless loops.
 
 Cloud Integration & Logging:
 ----------------------------
-• The script retrieves video records from a BigQuery queue table.
-• It downloads each video, processes it to detect the start of the final credits, and logs detailed processing information.
-• A timestamped local log file (e.g., log_YYYYMMDD_HHMMSS.txt) is generated.
-• Processing results—including detected final credits time, video ID, processing duration, and job status—are exported
+- The script retrieves video records from a BigQuery queue table.
+- It downloads each video, processes it to detect the start of the final credits, and logs detailed processing information.
+- A timestamped local log file (e.g., log_YYYYMMDD_HHMMSS.txt) is generated.
+- Processing results—including detected final credits time, video ID, processing duration, and job status—are exported
   to a designated BigQuery output table.
 
 Environment Setup:
@@ -114,11 +114,11 @@ Key parameters are defined as global variables within the script and can be adju
 
 Troubleshooting:
 ----------------
-• Download Failures:
+- Download Failures:
   If a video fails to download, an error is logged and processing for that video is skipped.
 
-• Processing Errors:
+- Processing Errors:
   Any errors during frame extraction or analysis will be logged, and the video will be marked as failed.
 
-• Cloud Permissions:
+- Cloud Permissions:
   Verify that your service account has the necessary permissions for accessing BigQuery, Cloud Storage, and Vertex AI.
