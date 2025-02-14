@@ -99,12 +99,14 @@ Configuration:
 --------------
 Key parameters are defined as global variables within the script and can be adjusted as needed:
 
-   • Google Cloud Settings:
+   - Google Cloud Settings:
        - PROJECT_ID, REGION, BUCKET_NAME
-   • BigQuery Tables:
+       
+   - BigQuery Tables:
        - Input Queue: BQ_QUEUE (e.g., vdm_end_credits_detection.end_credits_queue)
        - Output Table: BQ_OUTPUT (e.g., vdm_end_credits_detection.end_credits_output)
-   • Detection Algorithm:
+       
+   - Detection Algorithm:
        - ANALYSIS_START_PERCENT (default: 0.90)
        - SEARCH_TOLERANCE (in seconds)
        - CANDIDATE_FRACTION (default: 1/3)
