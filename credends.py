@@ -78,7 +78,7 @@ def delete_local_video(local_path):
 
 def fetch_video_items():
     query = f"""
-        SELECT * FROM `{PROJECT_ID_BQ}.{BQ_QUEUE}` LIMIT 50
+        SELECT * FROM `{PROJECT_ID_BQ}.{BQ_QUEUE}`
     """
     query_job = bq_client.query(query)
     results = query_job.result()
