@@ -70,8 +70,8 @@ Environment Setup:
    - See: https://docs.conda.io/en/latest/miniconda.html
 
 2. Create and Activate the Conda Environment:
-   conda create -n final_credits python=3.8 -y
-   conda activate final_credits
+   - conda create -n final_credits python=3.8 -y
+   - conda activate final_credits
 
 3. Install Required Packages:
    pip install opencv-python google-cloud-storage google-auth google-cloud-bigquery vertexai requests
