@@ -74,10 +74,10 @@ Environment Setup:
    - conda activate final_credits
 
 3. Install Required Packages:
-   pip install opencv-python google-cloud-storage google-auth google-cloud-bigquery vertexai requests
+   - pip install opencv-python google-cloud-storage google-auth google-cloud-bigquery vertexai requests
 
 4. Install Google Cloud SDK (gcloud):
-   Download and install the Google Cloud SDK from:
+   - Download and install the Google Cloud SDK from:
    https://cloud.google.com/sdk/docs/install
 
 5. Set up Application Default Credentials:
